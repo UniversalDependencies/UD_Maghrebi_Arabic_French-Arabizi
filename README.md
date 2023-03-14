@@ -4,11 +4,11 @@ A Universal Dependencies corpus for a romanized user-generated content variety o
 
 # Introduction
 
-The first version of the NArabizi Corpus was presented in [(Seddah & al., 2020)](https://aclanthology.org/2020.acl-main.107.pdf).
-More details about this release will be available in a comming soon publication.
+The first version of the NArabizi Corpus was presented in [(Seddah & al., 2020)](https://aclanthology.org/2020.acl-main.107.pdf), with extensive parsing results presented in [(Riabi et al, 2021)](https://aclanthology.org/2021.wnut-1.47/).
+More details about this release will be available in an upcoming publication.
 
 ## Splitting
-The deduplicated corpus contains 18561 tokens in 1287 sentences.
+The now deduplicated corpus contains 18561 tokens in 1287 sentences.
 
 In **UD_Magherebi_Arabic_French-Arabizi**, data were randomly split into:
 
