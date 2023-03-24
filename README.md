@@ -29,12 +29,14 @@ The original sentences of the corpus are taken from:
 
 # References
 * Djamé Seddah, Farah Essaidi, Amal Fethi, Matthieu Futeral, Benjamin Muller, Pedro Javier Ortiz Suárez, Benoît Sagot, and Abhishek Srivastava. 2020. [Building a user-generated content North-African Arabizi treebank: Tackling hell](https://aclanthology.org/2020.acl-main.107.pdf). In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 1139–1150, Online Association for Computational Linguistics.
-* Benoît Sagot, Marion Richard, Rosa Stern. 2012. [Annotation référentielle du Corpus Arboré de Paris 7 en entités nommées}(https://aclanthology.org/F12-2050.pdf). In Proceedings of the Joint Conference JEP-TALN-RECITAL 2012, volume 2, TALN. 
+* Benoît Sagot, Marion Richard, Rosa Stern. 2012. [Annotation référentielle du Corpus Arboré de Paris 7 en entités nommées}(https://aclanthology.org/F12-2050.pdf). In Proceedings of the Joint Conference JEP-TALN-RECITAL 2012, volume 2, TALN.
 
-* New publication coming soon. 
+* New publication coming soon.
 
 # Changelog
-* 2023-03-8 v2.11
+* 2023-05-15 v2.12
+  * Initial release in Universal Dependencies.
+* 2023-03-8
   * Manual corrections in the original Treebank
   * Deduplication of threebank
   * Improve NOUN/PROPN distinction
@@ -42,17 +44,15 @@ The original sentences of the corpus are taken from:
   * Harmonisation of tokenisation
   * Correction of the cycles
   * Fixing encoding error for Arabic script
-  * Verify and fix origin text 
+  * Verify and fix origin text
   * Add NER annotations in MISC field
   * Add offensive annotations in the Meta data.
   * Fix some translations by Native speakers
-* 2019-11-15 v2.5
-  * Initial release in Universal Dependencies.
 
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.5
+Data available since: UD v2.12
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction news
@@ -61,7 +61,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Riabi,Arij;Essaidi,Farah;Fethi,Amal;Mahamdi,Menel;Seddah,Djamé
+Contributors: Riabi, Arij; Essaidi, Farah; Fethi, Amal; Mahamdi, Menel; Seddah, Djamé
 Contributing: elsewhere
 Contact: djame.seddah@gmail.com
 ===============================================================================
