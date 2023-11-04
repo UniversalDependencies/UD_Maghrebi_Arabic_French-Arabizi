@@ -78,8 +78,8 @@
     <dep name="dislocated">47</dep>
     <dep name="expl">59</dep>
     <dep name="expl:pv">12</dep>
-    <dep name="fixed">68</dep>
-    <dep name="flat">125</dep>
+    <dep name="fixed">67</dep>
+    <dep name="flat">126</dep>
     <dep name="goeswith">70</dep>
     <dep name="iobj">41</dep>
     <dep name="list">2</dep>
