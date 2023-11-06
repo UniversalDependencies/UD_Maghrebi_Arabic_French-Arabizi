@@ -4,8 +4,9 @@ A Universal Dependencies corpus for a romanized user-generated content variety o
 
 # Introduction
 
+This repository includes dataset presented in the paper "[Enriching the NArabizi Treebank: A Multifaceted Approach to Supporting an Under-Resourced Language](https://aclanthology.org/2023.law-1.26.pdf)" 
+
 The first version of the NArabizi Corpus was presented in [(Seddah & al., 2020)](https://aclanthology.org/2020.acl-main.107.pdf), with extensive parsing results presented in [(Riabi et al, 2021)](https://aclanthology.org/2021.wnut-1.47/).
-More details about this release will be available in an upcoming publication.
 
 # Splitting
 The now deduplicated corpus contains 18561 tokens in 1287 sentences.
@@ -28,10 +29,9 @@ The original sentences of the corpus are taken from:
 * UD maintainer: Arij Riabi: arij.riabi@inria.fr, Djamé Seddah: djame.seddah@gmail.com
 
 # References
+* Arij Riabi, Menel Mahamdi, Djamé Seddah. [Enriching the NArabizi Treebank: A Multifaceted Approach to Supporting an Under-Resourced Language](https://aclanthology.org/2023.law-1.26.pdf). In Proceedings of the 17th Linguistic Annotation Workshop (LAW-XVII)
 * Djamé Seddah, Farah Essaidi, Amal Fethi, Matthieu Futeral, Benjamin Muller, Pedro Javier Ortiz Suárez, Benoît Sagot, and Abhishek Srivastava. 2020. [Building a user-generated content North-African Arabizi treebank: Tackling hell](https://aclanthology.org/2020.acl-main.107.pdf). In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 1139–1150, Online Association for Computational Linguistics.
 * Benoît Sagot, Marion Richard, Rosa Stern. 2012. [Annotation référentielle du Corpus Arboré de Paris 7 en entités nommées}(https://aclanthology.org/F12-2050.pdf). In Proceedings of the Joint Conference JEP-TALN-RECITAL 2012, volume 2, TALN.
-
-* New publication coming soon.
 
 # Changelog
 * 2023-05-15 v2.12

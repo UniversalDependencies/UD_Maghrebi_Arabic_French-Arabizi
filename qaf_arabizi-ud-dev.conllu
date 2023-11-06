@@ -35,7 +35,7 @@
 23	m3akoume	avec_vous	PRON	P+PRO	_	1	parataxis	_	ComposedUDPOS=ADP+PRON|LangO=ar_dz|ner=O|Reverse=P_PRO_1
 24	et	et	CCONJ	CC	_	25	cc	_	ComposedUDPOS=CCONJ|LangO=fr|ner=O
 25	baraka	bénir	VERB	V	_	1	parataxis	_	ComposedUDPOS=VERB|LangO=ar_dz|ner=O
-26	allahou	Dieu	PROPN	NPP	_	25	fixed	_	ComposedUDPOS=PROPN|LangO=ar_dz|ner=B-PERderivA
+26	allahou	Dieu	PROPN	NPP	_	25	flat	_	ComposedUDPOS=PROPN|LangO=ar_dz|ner=B-PERderivA
 27	fikoume	sur_vous	PRON	P+PRO	_	25	obj	_	ComposedUDPOS=ADP+PRON|LangO=ar_dz|ner=O|Reverse=P_PRO_1
 
 # annot = farah
@@ -149,7 +149,7 @@
 
 # annot = Farah
 # file = dev
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 4435
 # text = matenssawech ahna ysamona mouloudia doran 3adna 08mlayne suporters ya elgalites mco t3al3a w rabi ekbir lakhatar les grands clubs jamais ymoutou ahna adina 03 coupes d
@@ -2939,7 +2939,7 @@
 14	na7asboulhoum	compter_pour_eux	VERB	V1mp+P+CLO	AdpType=Prep|Gender=Masc|Number=Plur|Person=1	8	parataxis	_	ComposedUDPOS=VERB+ADP+PRON|LangO=ar_dz|ner=O|Reverse=VERB_CLO_1
 
 # file = dev
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 942
 # text = aww hna 3andna championnat de foot fi lalgerie hadi jdida ana kounte hassabe kayane rigby bessahe foot ma3labaliche
