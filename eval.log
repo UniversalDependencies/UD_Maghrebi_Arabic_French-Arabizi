@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Maghrebi_Arabic_French-Arabizi:
-commit f23c0a4f859530d3fdd932a37a71394af11b8a44
+commit 55f4544e3b3ab2fdff4b6738bca62e7866a9877e
+Merge: 7ceaa9b babc2f1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 07:39:59 2023 +0200
 Size: counted 19793 of 19793 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.9706566796772.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,10 +25,17 @@ Udapi: found 7393 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 19793 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang qaf --max-err=10 UD_Maghrebi_Arabic_French-Arabizi/qaf_arabizi-ud-dev.conllu
+[Line 2284 Sent 830 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 6] 'par * que'
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang qaf --max-err=10 UD_Maghrebi_Arabic_French-Arabizi/qaf_arabizi-ud-test.conllu
+[Line 1509 Sent 4692 Node 48]: [L3 Warning fixed-gap] Gaps in fixed expression [48, 50] 'par * que'
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang qaf --max-err=10 UD_Maghrebi_Arabic_French-Arabizi/qaf_arabizi-ud-train.conllu
+[Line 8160 Sent 1141 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'par * que'
+[Line 15118 Sent 2783 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8] 'par * que'
+Warnings: 2
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.24) = 0.0184615384615385
