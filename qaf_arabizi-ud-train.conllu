@@ -11881,8 +11881,8 @@
 11	vive	vivre	VERB	V	Mood=Sub	4	parataxis	_	ComposedUDPOS=VERB|LangO=fr|ner=O
 12	mouloudia	Mouloudia	PROPN	NPP	_	11	nsubj	_	ComposedUDPOS=PROPN|LangO=fr|ner=B-ORG
 13-14	d'oran	_	_	_	_	_	_	_	_
-13	d'	d'	ADP	P	AdpType=Prep	14	case	_	ComposedUDPOS=ADP|LangO=fr|ner=O
-14	oran	Oran	PROPN	NPP	_	12	nmod	_	ComposedUDPOS=PROPN|LangO=fr|ner=B-LOC
+13	d'	d'	ADP	P	AdpType=Prep	14	case	_	ComposedUDPOS=ADP|LangO=fr|ner=I-ORG
+14	oran	Oran	PROPN	NPP	_	12	nmod	_	ComposedUDPOS=PROPN|LangO=fr|ner=I-ORG
 15	li	qui	PRON	PROREL	PronType=Rel	17	nsubj	_	ComposedUDPOS=PRON|LangO=ar_dz|ner=O
 16	ma	pas	PART	PART-NEG	Polarity=Neg	17	advmod	_	ComposedUDPOS=PART|LangO=ar_dz|ner=O
 17	brach	voulu	VERB	V	_	4	parataxis	_	ComposedUDPOS=VERB|LangO=ar_dz|ner=O

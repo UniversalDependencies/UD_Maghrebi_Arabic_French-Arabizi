@@ -159,7 +159,7 @@
 3	ysamona	ils_appeler_nous	VERB	V3ms+CLO	Gender=Masc|Number=Sing|Person=3	1	ccomp	_	ComposedUDPOS=VERB+PRON|LangO=ar_dz|ner=O|Reverse=VERB_CLO_1
 4	mouloudia	Mouloudia	PROPN	NPP	_	3	obj	_	ComposedUDPOS=PROPN|LangO=fr|ner=B-ORG
 5-6	doran	_	_	_	_	_	_	_	_
-5	d	d'	ADP	P	AdpType=Prep	6	case	_	ComposedUDPOS=ADP|LangO=fr|ner=O|wordform=doran
+5	d	d'	ADP	P	AdpType=Prep	6	case	_	ComposedUDPOS=ADP|LangO=fr|ner=I-ORG|wordform=doran
 6	oran	Oran	PROPN	NPP	_	4	nmod	_	ComposedUDPOS=PROPN|LangO=ar_dz|ner=I-ORG|wordform=doran
 7	3adna	chez_nous	PRON	P+PRO	_	9	nsubj	_	ComposedUDPOS=ADP+PRON|LangO=ar_dz|ner=O|Reverse=P_PRO_1
 8	08	8	NUM	NUM	_	9	nummod	_	ComposedUDPOS=NUM|LangO=ar_dz|ner=O|SpaceAfter=No|wordform=08mlayne
