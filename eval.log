@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Maghrebi_Arabic_French-Arabizi:
-commit 55f4544e3b3ab2fdff4b6738bca62e7866a9877e
-Merge: 7ceaa9b babc2f1
+commit 42b3f34282ac6794087e454e92398d4c5f088fbf
+Merge: 4a73dcb b82a0e7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 19793 of 19793 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.9706566796772.
