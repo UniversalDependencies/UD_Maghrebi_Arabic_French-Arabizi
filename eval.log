@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Maghrebi_Arabic_French-Arabizi:
-commit 42b3f34282ac6794087e454e92398d4c5f088fbf
-Merge: 4a73dcb b82a0e7
+commit 4b1a20d76a888e7dba7c745ddd3e10de1a42151e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 13:04:34 2024 +0200
 Size: counted 19793 of 19793 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.9706566796772.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -30,12 +30,14 @@ Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang qaf --max-err=10 UD_Maghrebi_Arabic_French-Arabizi/qaf_arabizi-ud-test.conllu
 [Line 1509 Sent 4692 Node 48]: [L3 Warning fixed-gap] Gaps in fixed expression [48, 50] 'par * que'
-Warnings: 1
+[Line 1874 Sent M4S45 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:mille:det --> 2:cent:nmod)
+Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang qaf --max-err=10 UD_Maghrebi_Arabic_French-Arabizi/qaf_arabizi-ud-train.conllu
+[Line 6898 Sent 2040 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:El:det --> 14:gens:nmod)
 [Line 8160 Sent 1141 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'par * que'
 [Line 15118 Sent 2783 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8] 'par * que'
-Warnings: 2
+Warnings: 3
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.24) = 0.0184615384615385
