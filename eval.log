@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Maghrebi_Arabic_French-Arabizi:
-commit 4b1a20d76a888e7dba7c745ddd3e10de1a42151e
+commit 10c6ced8a7e32bce9bffcff0f7ec8837ddf5a9e9
+Merge: d854567 72d33b8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:04:34 2024 +0200
 Size: counted 19793 of 19793 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.9706566796772.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,34 +20,70 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       7393
-Udapi: found 7393 bugs.
+               TOTAL       7275
+Udapi: found 7275 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 19793 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang qaf --max-err=10 UD_Maghrebi_Arabic_French-Arabizi/qaf_arabizi-ud-dev.conllu
+[Line 22 Sent 815 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'b1 sur' does not have the 'ExtPos' feature
+[Line 117 Sent 9332 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'parce que' does not have the 'ExtPos' feature
+[Line 959 Sent 2665 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'par contre' does not have the 'ExtPos' feature
+[Line 1225 Sent 2236 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'parce que' does not have the 'ExtPos' feature
+[Line 1469 Sent 4420 Node 38]: [L3 Warning fixed-without-extpos] Fixed expression 'n' importe quoi' does not have the 'ExtPos' feature
+[Line 1586 Sent 3692 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'a part' does not have the 'ExtPos' feature
+[Line 1910 Sent 4566 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'daba 3lache' does not have the 'ExtPos' feature
+[Line 2284 Sent 830 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'par que' does not have the 'ExtPos' feature
 [Line 2284 Sent 830 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 6] 'par * que'
-Warnings: 1
+[Line 3183 Sent 4535 Node 54]: [L3 Warning fixed-without-extpos] Fixed expression 'n eport' does not have the 'ExtPos' feature
+Warnings: 10
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang qaf --max-err=10 UD_Maghrebi_Arabic_French-Arabizi/qaf_arabizi-ud-test.conllu
+[Line 91 Sent 4447 Node 46]: [L3 Warning fixed-without-extpos] Fixed expression 'parce wue' does not have the 'ExtPos' feature
+[Line 495 Sent 38 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'tout d' adord' does not have the 'ExtPos' feature
+[Line 961 Sent 3781 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression '1 2 3' does not have the 'ExtPos' feature
+[Line 1037 Sent 3496 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'parce que' does not have the 'ExtPos' feature
+[Line 1136 Sent 1854 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'parce que' does not have the 'ExtPos' feature
+[Line 1252 Sent M1S11 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'tant pie' does not have the 'ExtPos' feature
+[Line 1509 Sent 4692 Node 48]: [L3 Warning fixed-without-extpos] Fixed expression 'par que' does not have the 'ExtPos' feature
 [Line 1509 Sent 4692 Node 48]: [L3 Warning fixed-gap] Gaps in fixed expression [48, 50] 'par * que'
-[Line 1874 Sent M4S45 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:mille:det --> 2:cent:nmod)
-Warnings: 2
-*** PASSED ***
+[Line 1874 Sent M4S45 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:mille:det --> 2:cent:nmod)
+[Line 1982 Sent 66 Node 31]: [L3 Warning fixed-without-extpos] Fixed expression 'wa lakin' does not have the 'ExtPos' feature
+[Line 2492 Sent 1200 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'en plus' does not have the 'ExtPos' feature
+[Line 2492 Sent 1200 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'en'
+...suppressing further errors regarding Warning
+Syntax errors: 2
+Warnings: 11
+*** FAILED *** with 2 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang qaf --max-err=10 UD_Maghrebi_Arabic_French-Arabizi/qaf_arabizi-ud-train.conllu
-[Line 6898 Sent 2040 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:El:det --> 14:gens:nmod)
-[Line 8160 Sent 1141 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'par * que'
-[Line 15118 Sent 2783 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8] 'par * que'
-Warnings: 3
-*** PASSED ***
-Validity: 1
+[Line 403 Sent M4S58 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'à peu prés' does not have the 'ExtPos' feature
+[Line 403 Sent M4S58 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'à'
+[Line 1425 Sent 3420 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'même si' does not have the 'ExtPos' feature
+[Line 1646 Sent M2S33 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'en plus' does not have the 'ExtPos' feature
+[Line 1746 Sent 62 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'en plus' does not have the 'ExtPos' feature
+[Line 1746 Sent 62 Node 24]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'en'
+[Line 1755 Sent 62 Node 32]: [L3 Warning fixed-without-extpos] Fixed expression 'kif kif' does not have the 'ExtPos' feature
+[Line 2145 Sent 4612 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'li ana' does not have the 'ExtPos' feature
+[Line 4898 Sent 1951 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression '1 2 3' does not have the 'ExtPos' feature
+[Line 6461 Sent 3279 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'bien sur' does not have the 'ExtPos' feature
+[Line 6898 Sent 2040 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:El:det --> 14:gens:nmod)
+[Line 6951 Sent 4268 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'ou la' does not have the 'ExtPos' feature
+[Line 7288 Sent 4581 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'ou bien' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 18831 Sent 12 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'en'
+Syntax errors: 4
+Warnings: 37
+*** FAILED *** with 4 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.24) = 0.0184615384615385
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.432170541553766) = 0.110812959372761
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.756756756756757) = 0.0582120582120582
-(TOTAL score=0.336506163889495) * (availability=1) * (validity=1) = 0.336506163889495
-STARS = 1.5
-UD_Maghrebi_Arabic_French-Arabizi	0.336506163889495	1.5
+(TOTAL score=0.336003398680847) * (availability=1) * (validity=0.01) = 0.00336003398680847
+STARS = 0
+UD_Maghrebi_Arabic_French-Arabizi	0.00336003398680847	0
