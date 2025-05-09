@@ -229,7 +229,7 @@
 4	vérité	vérité	NOUN	NC	_	1	obj	_	ComposedUDPOS=NOUN|LangO=fr|ner=O
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 9292
 # text = 123 rana m3ak yass3dan vive l'algerie
@@ -408,7 +408,7 @@
 9	millions	millions	NOUN	NC	_	8	nmod	_	ComposedUDPOS=NOUN|LangO=fr|ner=O
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 1144
 # text = nchalah la lagerie cup de monde 2010 chahata nchalah 2014 m3a lalgerie
@@ -4610,7 +4610,7 @@
 16	world	monde	NOUN	NC	_	15	nmod	_	ComposedUDPOS=NOUN|LangO=en|ner=O
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 910
 # text = al hodod maghlo9a m3a le Maroc aghal9oha aussi m3a tunis wartaho bach tasbah aljazair ghayakhi a3la 3a9liyazza
@@ -4639,7 +4639,7 @@
 21	yazza	algérienne	ADJ	ADJ	_	20	amod	_	ComposedUDPOS=ADJ|LangO=ar_dz|ner=O
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 1
 # sent_id = 9329
 # text = c'est le vrai probleme qui se pose dans tout l'algerie yen3al bouha hekouma
@@ -6847,7 +6847,7 @@
 13	!!!!	!!!!	PUNCT	PONCT	_	9	punct	_	ComposedUDPOS=PUNCT|LangO=ar_dz|ner=O
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 4603
 # text = enfin hadi haya alhadra ta3 rajalata7ya alkhadra w dima m3ak ya sa3dan vive l'algerie
@@ -8317,7 +8317,7 @@
 14	rabi	Dieu_mien	PROPN	NPP+POSS	_	12	nmod	_	ComposedUDPOS=PROPN+PRON|LangO=ar_dz|ner=B-PERderivA|Possessive=Yes|Reverse=NC_POSS
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 1
 # sent_id = 9337
 # text = vive l'algerie et nchalah narb7o angola wa ma yachafawach fina el 3adien
@@ -8356,7 +8356,7 @@
 10	lina	pour_nous	PRON	P+PRO	_	2	parataxis	_	ComposedUDPOS=ADP+PRON|LangO=ar_dz|ner=O|Reverse=P_PRO_1
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 1
 # sent_id = 4349
 # text = krahna ourana m3awline on vous baisserai juskaus ke vou nou aimévive elheda khir man nweliw des kamikaz
@@ -8830,7 +8830,7 @@
 2	m3ahem	avec_eux	PRON	P+PRO	_	1	nsubj	_	ComposedUDPOS=ADP+PRON|LangO=ar_dz|ner=O|Reverse=P_PRO_1
 
 # file = train
-# note = fixed  (automatic splitting) reverted 
+# note = fixed  (automatic splitting) reverted
 # offensive_classification = 0
 # sent_id = 3649
 # text = domage tmanit yal3ab madabiya nla3bo la semain prochain bach il3ab bogara
@@ -9405,7 +9405,7 @@
 17	journee	journée	NOUN	NC	_	16	nmod	_	ComposedUDPOS=NOUN|LangO=fr|ner=O
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 4490
 # text = ntmnalek el shifaa el 3ajel mn 3and allah khali imanek kawi matnsach le miracle de wassila f bahdja ina ma3A el 3osr yosra w l'algerie et toute ma famille te soutien
@@ -9600,7 +9600,7 @@
 7	mayakrawech	pas_ils_louent	VERB	PART-NEG+V3mp	Gender=Masc|Number=Plur|Person=3|Polarity=Neg	2	parataxis	_	ComposedUDPOS=PART+VERB|LangO=ar_dz|ner=O
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 4601
 # text = nimiro 2 nta mechhah ida malgawech win yroho yjo 3adna elbayadh blad elkaram
@@ -12192,7 +12192,7 @@
 15	filistin	Palestine	PROPN	NPP	_	12	obl	_	ComposedUDPOS=PROPN|LangO=ar_dz|ner=B-LOC
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 4644
 # text = salam maaliche hadi ghir 3ain darbet les algeriens et c normal apres se qu'on fait et tt le monde parle ya rabi ba3ad al 3ainine alina ya rabii onr two tre viva lalgerie et vive tt les algerien every where and every when thanks
@@ -13937,7 +13937,7 @@
 21	3alikom	à_vous	PRON	P+PRO	_	20	nsubj	_	ComposedUDPOS=ADP+PRON|LangO=ar_dz|ner=O|Reverse=P_PRO_1
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 4676
 # text = choufou rani dert el golavirage w sobte l'algerie rabha 1_0 tanzanie aya w morocco tekhser m3a l'afrique de centre 1-0 w hna ki tjina l'afrique de centre nerbhouha 3_0 w hna nqualifou inchaellah goulou ammmmiiinnnn
@@ -16762,7 +16762,7 @@
 20	chorouk	El_Chorouk	PROPN	NPP	_	19	vocative	_	ComposedUDPOS=PROPN|LangO=fr|ner=B-ORG
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 9277
 # text = mon frere isam n 5 wach an9olak kho hadi lablade ali aysamouha l'algeriè 9asmouha binathom choufe chab3a bante al anchore ya choro9e
@@ -17948,7 +17948,7 @@
 30	ils	ils	PRON	CLS-SUJ	_	32	nsubj	_	ComposedUDPOS=PRON|LangO=fr|ner=O
 31	nous	nous	PRON	PRO	_	32	iobj	_	ComposedUDPOS=PRON|LangO=fr|ner=O
 32	remenent	ramenent	VERB	V	_	6	parataxis	_	ComposedUDPOS=VERB|LangO=fr|ner=O
-33	de	de	ADP	P	AdpType=Prep	35	det	_	ComposedUDPOS=ADP|LangO=fr|ner=O
+33	de	de	ADP	P	AdpType=Prep|ExtPos=DET	35	det	_	ComposedUDPOS=ADP|LangO=fr|ner=O
 34	la	la	DET	DET	_	33	fixed	_	ComposedUDPOS=DET|LangO=fr|ner=O
 35	racaille	racaille	NOUN	NC	_	32	obj	_	ComposedUDPOS=NOUN|LangO=fr|ner=O
 36	!!!	!!!	PUNCT	PONCT	_	32	punct	_	ComposedUDPOS=PUNCT|LangO=fr|ner=O
@@ -18569,7 +18569,7 @@
 8	ingoul	dire_je	VERB	V1ms	Gender=Masc|Number=Sing|Person=1	7	xcomp	_	ComposedUDPOS=VERB|LangO=ar_dz|ner=O
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 1325
 # text = vive l'algerie rana m3ak ya saadane w ya3tik essaha ya zianni
@@ -19588,7 +19588,7 @@
 15	mokhlissines	fidèles	ADJ	ADJ	_	13	amod	_	ComposedUDPOS=ADJ|LangO=ar_dz|ner=O
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 1356
 # text = wa3lah makach les argerien 3aichine fi mazabile elzair é pourtant
@@ -21336,7 +21336,7 @@
 24	hhhh	mdr	INTJ	I	_	19	discourse	_	ComposedUDPOS=INTJ|LangO=ar_dz|ner=O
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 4653
 # text = rana dima nestanao fi wladna rbi yechfihom w m3ak ya elkhadra
@@ -21454,7 +21454,7 @@
 8	za3fanine	énervés	ADJ	ADJ	_	7	obj	_	ComposedUDPOS=ADJ|LangO=ar_dz|ner=O
 
 # file = train
-# note = fixed 
+# note = fixed
 # offensive_classification = 0
 # sent_id = 4646
 # text = 1 2 3 viva l'algerie roh ya 3ammou sa3dane rak rabeh

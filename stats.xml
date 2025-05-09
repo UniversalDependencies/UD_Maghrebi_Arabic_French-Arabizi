@@ -33,8 +33,9 @@
     <tag name="X">78</tag><!-- _, X, d, d_\, que, z -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="21">
+  <feats unique="22">
     <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,SCONJ,VERB">1730</feat><!-- fi, de, m3a, f, b, pour, ta3, a, 3la, bi -->
+    <feat name="ExtPos" value="DET" upos="ADP">1</feat><!-- de -->
     <feat name="Gender" value="Fem" upos="VERB">116</feat><!-- rabhat, tkoun, raha, rahet, rahi, rouhi, 3adaw, 7atecheki, Kanet, MATASTAHELCH -->
     <feat name="Gender" value="Masc" upos="ADP,AUX,PRON,VERB">1599</feat><!-- yal3ab, rana, ykoun, ngoul, yahdina, ndir, ndirou, ya3tik, yjib, ina -->
     <feat name="Mood" value="Imp" upos="VERB">222</feat><!-- allez, roh, diri, goulou, qoulli, casse, kon, rouh, afham, al3ab -->
