@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Maghrebi_Arabic_French-Arabizi:
-commit beab5718083c674f001b4b19b7d15661f33f6752
-Merge: 515986b 9758115
+commit 4c790569c194d149a12ebd5b7a610cb9a8b62f4e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:16:37 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'qaf_arabizi'
 Language code (from CoNLL-U file name) = 'qaf'
@@ -25,69 +25,102 @@ Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang qaf --max-err=10 UD_Maghrebi_Arabic_French-Arabizi/qaf_arabizi-ud-dev.conllu
-[Line 13 Sent 815]: [L3 Warning pron-det-without-prontype] The word 'l' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 20 Sent 815]: [L3 Warning pron-det-without-prontype] The word 'l' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 22 Sent 815]: [L3 Warning fixed-without-extpos] Fixed expression 'b1 sur' does not have the 'ExtPos' feature
-[Line 25 Sent 815]: [L3 Warning pron-det-without-prontype] The word 'le' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 35 Sent 815]: [L3 Warning pron-det-without-prontype] The word 'm3akoume' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 39 Sent 815]: [L3 Warning pron-det-without-prontype] The word 'fikoume' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 49 Sent 4602]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 55 Sent 4602]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 60 Sent 4602]: [L3 Warning pron-det-without-prontype] The word 'entoum' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 65 Sent 4602]: [L3 Warning pron-det-without-prontype] The word 'el' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 2243 Sent 1341]: [L3 Syntax too-many-objects] Multiple direct objects [2, 4] ('vous', 'KARIM') under the predicate 'aime'.
-Syntax errors: 1
-Warnings: 424
-*** FAILED *** with 1 errors
+[Line 13 Sent 815]: [L3 WARNING pron-det-without-prontype] The word 'l' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 20 Sent 815]: [L3 WARNING pron-det-without-prontype] The word 'l' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 22 Sent 815]: [L3 WARNING fixed-without-extpos] Fixed expression 'b1 sur' does not have the 'ExtPos' feature
+[Line 25 Sent 815]: [L3 WARNING pron-det-without-prontype] The word 'le' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 35 Sent 815]: [L3 WARNING pron-det-without-prontype] The word 'm3akoume' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 39 Sent 815]: [L3 WARNING pron-det-without-prontype] The word 'fikoume' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 49 Sent 4602]: [L3 WARNING pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 55 Sent 4602]: [L3 WARNING pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 60 Sent 4602]: [L3 WARNING pron-det-without-prontype] The word 'entoum' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 65 Sent 4602]: [L3 WARNING pron-det-without-prontype] The word 'el' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 69 Sent 4602]: [L3 WARNING pron-det-without-prontype] The word 'el' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 117 Sent 9332]: [L3 WARNING fixed-without-extpos] Fixed expression 'parce que' does not have the 'ExtPos' feature
+[Line 959 Sent 2665]: [L3 WARNING fixed-without-extpos] Fixed expression 'par contre' does not have the 'ExtPos' feature
+[Line 1225 Sent 2236]: [L3 WARNING fixed-without-extpos] Fixed expression 'parce que' does not have the 'ExtPos' feature
+[Line 1469 Sent 4420]: [L3 WARNING fixed-without-extpos] Fixed expression 'n' importe quoi' does not have the 'ExtPos' feature
+[Line 1586 Sent 3692]: [L3 WARNING fixed-without-extpos] Fixed expression 'a part' does not have the 'ExtPos' feature
+[Line 1910 Sent 4566]: [L3 WARNING fixed-without-extpos] Fixed expression 'daba 3lache' does not have the 'ExtPos' feature
+[Line 1928 Sent 4566]: [L3 SYNTAX obl-should-be-nmod] The parent (node [26] '9italia') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2243 Sent 1341]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 4] ('vous', 'KARIM') under the predicate 'aime'.
+[Line 2284 Sent 830]: [L3 WARNING fixed-without-extpos] Fixed expression 'par que' does not have the 'ExtPos' feature
+[Line 2284 Sent 830]: [L3 WARNING fixed-gap] Gaps in fixed expression [4, 6] 'par * que'
+[Line 3183 Sent 4535]: [L3 WARNING fixed-without-extpos] Fixed expression 'n eport' does not have the 'ExtPos' feature
+Warnings: 423
+SYNTAX errors: 2
+*** FAILED *** with 2 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang qaf --max-err=10 UD_Maghrebi_Arabic_French-Arabizi/qaf_arabizi-ud-test.conllu
-[Line 28 Sent 1810]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 32 Sent 1810]: [L3 Warning pron-det-without-prontype] The word 'l' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 36 Sent 1810]: [L3 Warning pron-det-without-prontype] The word 'el' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 46 Sent 4447]: [L3 Warning pron-det-without-prontype] The word 'ntouma' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 91 Sent 4447]: [L3 Warning fixed-without-extpos] Fixed expression 'parce wue' does not have the 'ExtPos' feature
-[Line 95 Sent 4447]: [L3 Warning pron-det-without-prontype] The word 'y' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 106 Sent 4447]: [L3 Warning pron-det-without-prontype] The word 'iyakom' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 117 Sent 913]: [L3 Warning pron-det-without-prontype] The word 'il' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 121 Sent 913]: [L3 Warning pron-det-without-prontype] The word 'la' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 123 Sent 913]: [L3 Warning pron-det-without-prontype] The word 'dyalo' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 554 Sent 1940]: [L3 Syntax too-many-objects] Multiple direct objects [13, 15] ('khedma', 't3ame') under the predicate 'makan'.
-[Line 1823 Sent M4S14]: [L3 Syntax too-many-objects] Multiple direct objects [8, 10] ('charika', 'ras') under the predicate 'ndir'.
-[Line 1874 Sent M4S45]: [L3 Syntax leaf-det] 'det' not expected to have children (3:mille:det --> 2:cent:nmod)
-[Line 2492 Sent 1200]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('en')
-[Line 3046 Sent 2964]: [L3 Syntax too-many-objects] Multiple direct objects [7, 9] ('wach', '3aynik') under the predicate 'idirou'.
-Syntax errors: 5
+[Line 28 Sent 1810]: [L3 WARNING pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 32 Sent 1810]: [L3 WARNING pron-det-without-prontype] The word 'l' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 36 Sent 1810]: [L3 WARNING pron-det-without-prontype] The word 'el' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 46 Sent 4447]: [L3 WARNING pron-det-without-prontype] The word 'ntouma' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 91 Sent 4447]: [L3 WARNING fixed-without-extpos] Fixed expression 'parce wue' does not have the 'ExtPos' feature
+[Line 95 Sent 4447]: [L3 WARNING pron-det-without-prontype] The word 'y' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 106 Sent 4447]: [L3 WARNING pron-det-without-prontype] The word 'iyakom' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 117 Sent 913]: [L3 WARNING pron-det-without-prontype] The word 'il' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 121 Sent 913]: [L3 WARNING pron-det-without-prontype] The word 'la' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 123 Sent 913]: [L3 WARNING pron-det-without-prontype] The word 'dyalo' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 125 Sent 913]: [L3 WARNING pron-det-without-prontype] The word 'tout' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 495 Sent 38]: [L3 WARNING fixed-without-extpos] Fixed expression 'tout d' adord' does not have the 'ExtPos' feature
+[Line 554 Sent 1940]: [L3 SYNTAX too-many-objects] Multiple direct objects [13, 15] ('khedma', 't3ame') under the predicate 'makan'.
+[Line 961 Sent 3781]: [L3 WARNING fixed-without-extpos] Fixed expression '1 2 3' does not have the 'ExtPos' feature
+[Line 1037 Sent 3496]: [L3 WARNING fixed-without-extpos] Fixed expression 'parce que' does not have the 'ExtPos' feature
+[Line 1136 Sent 1854]: [L3 WARNING fixed-without-extpos] Fixed expression 'parce que' does not have the 'ExtPos' feature
+[Line 1252 Sent M1S11]: [L3 WARNING fixed-without-extpos] Fixed expression 'tant pie' does not have the 'ExtPos' feature
+[Line 1509 Sent 4692]: [L3 WARNING fixed-without-extpos] Fixed expression 'par que' does not have the 'ExtPos' feature
+[Line 1509 Sent 4692]: [L3 WARNING fixed-gap] Gaps in fixed expression [48, 50] 'par * que'
+[Line 1823 Sent M4S14]: [L3 SYNTAX too-many-objects] Multiple direct objects [8, 10] ('charika', 'ras') under the predicate 'ndir'.
+[Line 1874 Sent M4S45]: [L3 SYNTAX leaf-det] 'det' not expected to have children (3:mille:det --> 2:cent:nmod)
+[Line 1982 Sent 66]: [L3 WARNING fixed-without-extpos] Fixed expression 'wa lakin' does not have the 'ExtPos' feature
+[Line 2492 Sent 1200]: [L3 WARNING fixed-without-extpos] Fixed expression 'en plus' does not have the 'ExtPos' feature
+[Line 2492 Sent 1200]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('en')
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 3046 Sent 2964]: [L3 SYNTAX too-many-objects] Multiple direct objects [7, 9] ('wach', '3aynik') under the predicate 'idirou'.
 Warnings: 396
+SYNTAX errors: 5
 *** FAILED *** with 5 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang qaf --max-err=10 UD_Maghrebi_Arabic_French-Arabizi/qaf_arabizi-ud-train.conllu
-[Line 29 Sent 3100]: [L3 Warning pron-det-without-prontype] The word 'l'' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 34 Sent 3100]: [L3 Warning pron-det-without-prontype] The word 'le' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 47 Sent 3015]: [L3 Warning pron-det-without-prontype] The word 'les' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 52 Sent 3015]: [L3 Warning pron-det-without-prontype] The word 'ba3dakom' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 87 Sent 2112]: [L3 Warning pron-det-without-prontype] The word 'el' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 90 Sent 2112]: [L3 Warning pron-det-without-prontype] The word 'el' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 104 Sent 1577]: [L3 Warning pron-det-without-prontype] The word 'el' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 107 Sent 1577]: [L3 Warning pron-det-without-prontype] The word 'l' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 110 Sent 1577]: [L3 Warning pron-det-without-prontype] The word 'l' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 121 Sent 2690]: [L3 Warning pron-det-without-prontype] The word 'les' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 403 Sent M4S58]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('à')
-[Line 1025 Sent 4604]: [L3 Syntax too-many-objects] Multiple direct objects [13, 15] ('nous', '4') under the predicate 'donné'.
-[Line 1746 Sent 62]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('en')
-[Line 2684 Sent 527]: [L3 Syntax too-many-objects] Multiple direct objects [3, 5] ('bay', 'baya') under the predicate 'maykhaoufna'.
-[Line 3331 Sent 4658]: [L3 Syntax too-many-objects] Multiple direct objects [15, 19] ('allahu', 'rabi') under the predicate 'baraka'.
-[Line 3534 Sent 4619]: [L3 Syntax too-many-objects] Multiple direct objects [3, 5] ('quoi', 'me') under the predicate 'méle'.
-[Line 4954 Sent 3426]: [L3 Syntax too-many-objects] Multiple direct objects [2, 4] ("t'", 'boughera') under the predicate 'aime'.
-[Line 5126 Sent M4S56]: [L3 Syntax too-many-objects] Multiple direct objects [5, 8] ('que', 'affaire') under the predicate 'est'.
-[Line 5256 Sent 9371]: [L3 Syntax too-many-objects] Multiple direct objects [3, 37] ('verts', 'verts') under the predicate 'allez'.
-[Line 5372 Sent M1S15]: [L3 Syntax too-many-objects] Multiple direct objects [2, 7] ('ghâchi', 'ness') under the predicate 'Kayen'.
-...suppressing further errors regarding Syntax
-Syntax errors: 30
-Warnings: 2969
-*** FAILED *** with 30 errors
+[Line 29 Sent 3100]: [L3 WARNING pron-det-without-prontype] The word 'l'' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 34 Sent 3100]: [L3 WARNING pron-det-without-prontype] The word 'le' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 47 Sent 3015]: [L3 WARNING pron-det-without-prontype] The word 'les' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 52 Sent 3015]: [L3 WARNING pron-det-without-prontype] The word 'ba3dakom' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 87 Sent 2112]: [L3 WARNING pron-det-without-prontype] The word 'el' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 90 Sent 2112]: [L3 WARNING pron-det-without-prontype] The word 'el' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 104 Sent 1577]: [L3 WARNING pron-det-without-prontype] The word 'el' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 107 Sent 1577]: [L3 WARNING pron-det-without-prontype] The word 'l' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 110 Sent 1577]: [L3 WARNING pron-det-without-prontype] The word 'l' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 121 Sent 2690]: [L3 WARNING pron-det-without-prontype] The word 'les' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 403 Sent M4S58]: [L3 WARNING fixed-without-extpos] Fixed expression 'à peu prés' does not have the 'ExtPos' feature
+[Line 403 Sent M4S58]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('à')
+[Line 1025 Sent 4604]: [L3 SYNTAX too-many-objects] Multiple direct objects [13, 15] ('nous', '4') under the predicate 'donné'.
+[Line 1425 Sent 3420]: [L3 WARNING fixed-without-extpos] Fixed expression 'même si' does not have the 'ExtPos' feature
+[Line 1646 Sent M2S33]: [L3 WARNING fixed-without-extpos] Fixed expression 'en plus' does not have the 'ExtPos' feature
+[Line 1746 Sent 62]: [L3 WARNING fixed-without-extpos] Fixed expression 'en plus' does not have the 'ExtPos' feature
+[Line 1746 Sent 62]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('en')
+[Line 1755 Sent 62]: [L3 WARNING fixed-without-extpos] Fixed expression 'kif kif' does not have the 'ExtPos' feature
+[Line 2145 Sent 4612]: [L3 WARNING fixed-without-extpos] Fixed expression 'li ana' does not have the 'ExtPos' feature
+[Line 2684 Sent 527]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 5] ('bay', 'baya') under the predicate 'maykhaoufna'.
+[Line 3331 Sent 4658]: [L3 SYNTAX too-many-objects] Multiple direct objects [15, 19] ('allahu', 'rabi') under the predicate 'baraka'.
+[Line 3534 Sent 4619]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 5] ('quoi', 'me') under the predicate 'méle'.
+[Line 4226 Sent 4486]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'qqn') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4898 Sent 1951]: [L3 WARNING fixed-without-extpos] Fixed expression '1 2 3' does not have the 'ExtPos' feature
+[Line 4954 Sent 3426]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 4] ("t'", 'boughera') under the predicate 'aime'.
+[Line 5126 Sent M4S56]: [L3 SYNTAX too-many-objects] Multiple direct objects [5, 8] ('que', 'affaire') under the predicate 'est'.
+[Line 5256 Sent 9371]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 37] ('verts', 'verts') under the predicate 'allez'.
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 6461 Sent 3279]: [L3 WARNING fixed-without-extpos] Fixed expression 'bien sur' does not have the 'ExtPos' feature
+[Line 6951 Sent 4268]: [L3 WARNING fixed-without-extpos] Fixed expression 'ou la' does not have the 'ExtPos' feature
+[Line 7288 Sent 4581]: [L3 WARNING fixed-without-extpos] Fixed expression 'ou bien' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 2964
+SYNTAX errors: 35
+*** FAILED *** with 35 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.24) = 0.0266666666666667
