@@ -4223,7 +4223,7 @@
 5	es	es	VERB	CLS-SUJ+V	_	0	root	_	ComposedUDPOS=PRON+VERB|LangO=fr|ner=O
 6	qqn	quelqu'un	PRON	PROREL	PronType=Rel	5	obj	_	ComposedUDPOS=PRON|LangO=fr|ner=O
 7	de	de	ADP	P	AdpType=Prep	8	case	_	ComposedUDPOS=ADP|LangO=fr|ner=O
-8	bien	bien	ADV	ADV	_	6	obl	_	ComposedUDPOS=ADV|LangO=fr|ner=O
+8	bien	bien	ADV	ADV	_	6	advmod	_	ComposedUDPOS=ADV|LangO=fr|ner=O
 9	macha	MachaAllah	INTJ	I	Typo=Yes	5	discourse	_	ComposedUDPOS=INTJ|LangO=ar_dz|ner=O
 10	allah	_	X	_	_	9	goeswith	_	ComposedUDPOS=X|LangO=ar_dz|ner=B-PERderivA
 11	et	et	CCONJ	CC	_	15	cc	_	ComposedUDPOS=CCONJ|LangO=fr|ner=O
@@ -6129,7 +6129,7 @@
 1	chaque	Chaque	DET	DET	_	3	det	_	ComposedUDPOS=DET|LangO=fr|ner=O
 2	faut	faux	ADJ	ADJ	_	3	amod	_	ComposedUDPOS=ADJ|LangO=fr|ner=O
 3	pas	pas	NOUN	NC	_	5	obl	_	ComposedUDPOS=NOUN|LangO=fr|ner=O
-4	m3aha	avec_elle	PRON	P+PRO	_	3	obl	_	ComposedUDPOS=ADP+PRON|LangO=ar_dz|ner=O|Reverse=P_PRO_1
+4	m3aha	avec_elle	PRON	P+PRO	_	3	nmod	_	ComposedUDPOS=ADP+PRON|LangO=ar_dz|ner=O|Reverse=P_PRO_1
 5	braya	lettre	NOUN	NC	_	0	root	_	ComposedUDPOS=NOUN|LangO=ar_dz|ner=O
 6	maktouba	écrite	ADJ	ADJ	_	5	amod	_	ComposedUDPOS=ADJ|LangO=ar_dz|ner=O
 7	fouguha	dessus_d'elle	PRON	P+PRO	_	6	obl	_	ComposedUDPOS=ADP+PRON|LangO=ar_dz|ner=O|Reverse=P_PRO_1
@@ -11210,7 +11210,7 @@
 15-16	lahram	_	_	_	_	_	_	_	_
 15	la	l'	DET	DET	_	16	det	_	ComposedUDPOS=DET|LangO=ar_dz|ner=O
 16	hram	illéligitime	NOUN	NC	_	14	nmod	_	ComposedUDPOS=NOUN|LangO=ar_dz|ner=O
-17	ma3na	avec_nous	PRON	P+PRO	_	14	obl	_	ComposedUDPOS=ADP+PRON|LangO=ar_dz|ner=O|Reverse=P_PRO_1
+17	ma3na	avec_nous	PRON	P+PRO	_	14	nmod	_	ComposedUDPOS=ADP+PRON|LangO=ar_dz|ner=O|Reverse=P_PRO_1
 
 # file = train
 # note = fixed  (automatic splitting)
@@ -19772,7 +19772,7 @@
 72	obscurantistes	obscurantistes	NOUN	NC	_	80	nsubj	_	ComposedUDPOS=NOUN|lango=fr|ner=O
 73	tels	tels	ADJ	ADJ	_	75	amod	_	ComposedUDPOS=ADJ|lango=fr|ner=O
 74	les	les	DET	DET	_	75	det	_	ComposedUDPOS=DET|lango=fr|ner=O
-75	karadawi	Karadawi	PROPN	NPP	_	72	obl	_	ComposedUDPOS=PROPN|lango=fr|ner=B-PER
+75	karadawi	Karadawi	PROPN	NPP	_	72	nmod	_	ComposedUDPOS=PROPN|lango=fr|ner=B-PER
 76	et	et	CCONJ	CC	_	77	cc	_	ComposedUDPOS=CCONJ|lango=fr|ner=O
 77	autre	autre	ADJ	ADJ	_	78	amod	_	ComposedUDPOS=ADJ|lango=fr|ner=O
 78	talibans	Talibans	NOUN	NC	_	75	conj	_	ComposedUDPOS=NOUN|DeepDep=coord|lango=fr|ner=B-PERderiv
@@ -21204,7 +21204,7 @@
 2	reste	reste	VERB	V	_	0	root	_	ComposedUDPOS=VERB|LangO=fr|ner=O
 3	setif	Setif	PROPN	NPP	_	2	obj	_	ComposedUDPOS=PROPN|LangO=fr|ner=B-LOC
 4	malgrie	malgré	ADV	ADV	_	5	case	_	ComposedUDPOS=ADV|LangO=fr|ner=O
-5	tout	tout	PRON	PRO	_	3	obl	_	ComposedUDPOS=PRON|LangO=fr|ner=O
+5	tout	tout	PRON	PRO	_	3	nmod	_	ComposedUDPOS=PRON|LangO=fr|ner=O
 6	besah	mais	CCONJ	CC	_	9	cc	_	ComposedUDPOS=CCONJ|LangO=ar_dz|ner=O
 7	ntouma	vous	PRON	CLS-SUJ	_	9	nsubj	_	ComposedUDPOS=PRON|LangO=ar_dz|ner=O
 8	wach	quoi	PRON	PRO	_	9	obj	_	ComposedUDPOS=PRON|LangO=ar_dz|ner=O

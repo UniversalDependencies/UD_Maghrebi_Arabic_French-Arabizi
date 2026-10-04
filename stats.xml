@@ -62,7 +62,7 @@
     <dep name="acl">5</dep>
     <dep name="acl:relcl">105</dep>
     <dep name="advcl">70</dep>
-    <dep name="advmod">1057</dep>
+    <dep name="advmod">1058</dep>
     <dep name="amod">683</dep>
     <dep name="appos">92</dep>
     <dep name="aux">29</dep>
@@ -85,11 +85,11 @@
     <dep name="iobj">41</dep>
     <dep name="list">2</dep>
     <dep name="mark">258</dep>
-    <dep name="nmod">1286</dep>
+    <dep name="nmod">1291</dep>
     <dep name="nsubj">1790</dep>
     <dep name="nummod">83</dep>
     <dep name="obj">1594</dep>
-    <dep name="obl">1179</dep>
+    <dep name="obl">1173</dep>
     <dep name="parataxis">2066</dep>
     <dep name="punct">251</dep>
     <dep name="reparandum">2</dep>
