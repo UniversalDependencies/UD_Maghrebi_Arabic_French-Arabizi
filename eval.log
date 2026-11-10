@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Maghrebi_Arabic_French-Arabizi:
-commit 4c790569c194d149a12ebd5b7a610cb9a8b62f4e
+commit d480283ac31955afba4f22f25884df6ca4ef2512
+Merge: 89fddb4 76c7d27
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:16:37 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'qaf_arabizi'
 Language code (from CoNLL-U file name) = 'qaf'
@@ -43,14 +43,13 @@ Genres: found 2 out of 18 known.
 [Line 1469 Sent 4420]: [L3 WARNING fixed-without-extpos] Fixed expression 'n' importe quoi' does not have the 'ExtPos' feature
 [Line 1586 Sent 3692]: [L3 WARNING fixed-without-extpos] Fixed expression 'a part' does not have the 'ExtPos' feature
 [Line 1910 Sent 4566]: [L3 WARNING fixed-without-extpos] Fixed expression 'daba 3lache' does not have the 'ExtPos' feature
-[Line 1928 Sent 4566]: [L3 SYNTAX obl-should-be-nmod] The parent (node [26] '9italia') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 2243 Sent 1341]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 4] ('vous', 'KARIM') under the predicate 'aime'.
 [Line 2284 Sent 830]: [L3 WARNING fixed-without-extpos] Fixed expression 'par que' does not have the 'ExtPos' feature
 [Line 2284 Sent 830]: [L3 WARNING fixed-gap] Gaps in fixed expression [4, 6] 'par * que'
 [Line 3183 Sent 4535]: [L3 WARNING fixed-without-extpos] Fixed expression 'n eport' does not have the 'ExtPos' feature
 Warnings: 423
-SYNTAX errors: 2
-*** FAILED *** with 2 errors
+SYNTAX errors: 1
+*** FAILED *** with 1 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang qaf --max-err=10 UD_Maghrebi_Arabic_French-Arabizi/qaf_arabizi-ud-test.conllu
 [Line 28 Sent 1810]: [L3 WARNING pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
@@ -108,19 +107,19 @@ Exit code: 1
 [Line 2684 Sent 527]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 5] ('bay', 'baya') under the predicate 'maykhaoufna'.
 [Line 3331 Sent 4658]: [L3 SYNTAX too-many-objects] Multiple direct objects [15, 19] ('allahu', 'rabi') under the predicate 'baraka'.
 [Line 3534 Sent 4619]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 5] ('quoi', 'me') under the predicate 'méle'.
-[Line 4226 Sent 4486]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'qqn') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 4898 Sent 1951]: [L3 WARNING fixed-without-extpos] Fixed expression '1 2 3' does not have the 'ExtPos' feature
 [Line 4954 Sent 3426]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 4] ("t'", 'boughera') under the predicate 'aime'.
 [Line 5126 Sent M4S56]: [L3 SYNTAX too-many-objects] Multiple direct objects [5, 8] ('que', 'affaire') under the predicate 'est'.
 [Line 5256 Sent 9371]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 37] ('verts', 'verts') under the predicate 'allez'.
-...suppressing further messages regarding ERROR/SYNTAX
+[Line 5372 Sent M1S15]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 7] ('ghâchi', 'ness') under the predicate 'Kayen'.
 [Line 6461 Sent 3279]: [L3 WARNING fixed-without-extpos] Fixed expression 'bien sur' does not have the 'ExtPos' feature
+...suppressing further messages regarding ERROR/SYNTAX
 [Line 6951 Sent 4268]: [L3 WARNING fixed-without-extpos] Fixed expression 'ou la' does not have the 'ExtPos' feature
 [Line 7288 Sent 4581]: [L3 WARNING fixed-without-extpos] Fixed expression 'ou bien' does not have the 'ExtPos' feature
 ...suppressing further messages regarding WARNING/SYNTAX
 Warnings: 2964
-SYNTAX errors: 35
-*** FAILED *** with 35 errors
+SYNTAX errors: 30
+*** FAILED *** with 30 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.24) = 0.0266666666666667
